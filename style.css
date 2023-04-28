@@ -1,0 +1,16 @@
+
+.grid{
+    /*width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;*/
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 2px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 2em;
+    margin: 2em;
+    
+}
